@@ -1,0 +1,145 @@
+
+/*
+logo
+gray 9B9B9B
+black 4A4A4A
+background color gray:D8D8D8;
+
+*/
+
+*{
+  border:1px solid red;
+}
+
+.icon{
+  display: flex;
+  align-items: center;
+  margin-left: 24px;
+}
+
+.logo-icon {
+background: url(../images/ic-logo.svg);
+background-size: cover;
+width: 67px;
+height: 67px;
+display: inline-block;
+}
+
+.icon span{
+  text-transform: uppercase;
+}
+
+
+.img-1{
+  width:100px;
+  margin: 24px 32px 40px 32px;
+  display:inline;
+
+
+}
+ul {
+list-style-type: none;
+display:flex;
+align-items:center;
+}
+li {
+
+  margin-right:16px;
+}
+
+header{
+  height:100px;
+  width:100%;
+  display:flex;
+  justify-content: space-between;
+  align-items:center;
+
+}
+
+ul li{
+display: inline;
+}
+
+.main-content{
+  width: 100%;
+  height:500px;
+  display: flex;
+justify-content: space-around;
+  align-items: center;
+  background-color: #D8D8D8;
+}
+
+.banner{
+  background: url(../images/banner.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 60%;
+  height: 436px;
+  margin: 32px 40px 32px 24px;
+
+}
+
+.main-content-1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 20%;
+
+
+}
+
+.button {
+  background-color: #4A4A4A;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  color: white;
+  width: 100%
+}
+
+.info-main{
+  background: url(../images/information-main.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  height: 436px;
+  margin: 32px 24px 32px 24px;
+
+}
+.left{
+  display: flex;
+flex-direction: column;
+width: 60%
+
+}
+.left h1, .left p{
+  display: inline;
+}
+.row-2{
+  display: flex;
+  justify-content: space-around;
+
+}
+.guess{
+  background: url(../images/information-guest-lecture.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 35%;
+  height:100px;
+}
+.campus{
+  background: url(../images/information-guest-lecture.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 35%;
+  height:100px;
+}
+.ori{
+  background: url(../images/information-guest-lecture.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 35%;
+  height:100px;
+}
+.container{
+  width:423px;
+}
