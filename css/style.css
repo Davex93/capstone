@@ -1,5 +1,4 @@
-
-/*
+    /*
 logo
 gray 9B9B9B
 black 4A4A4A
@@ -7,139 +6,278 @@ background color gray:D8D8D8;
 
 */
 
-*{
-  border:1px solid red;
-}
+  * {
+    border: 1px solid red !important;
+  }
 
-.icon{
-  display: flex;
-  align-items: center;
-  margin-left: 24px;
-}
+  html {
+    font-size: 16px;
+  }
 
-.logo-icon {
-background: url(../images/ic-logo.svg);
-background-size: cover;
-width: 67px;
-height: 67px;
-display: inline-block;
-}
+  h1 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
 
-.icon span{
-  text-transform: uppercase;
-}
+  h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
 
+  h3 {
+    font-size: 1.17rem;
+    font-weight: bold;
+  }
 
-.img-1{
-  width:100px;
-  margin: 24px 32px 40px 32px;
-  display:inline;
+  p {
+    font-size: 1em;
+  }
 
+  .gray-background {
+    background-color: #d8d8d8;
+  }
+  /****************************/
 
-}
-ul {
-list-style-type: none;
-display:flex;
-align-items:center;
-}
-li {
+  header {
+    height: 64px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 
-  margin-right:16px;
-}
+  .icon {
+    display: flex;
+    align-items: center;
+    margin-left: 1.5rem;
+    color: #4a4a4a;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
 
-header{
-  height:100px;
-  width:100%;
-  display:flex;
-  justify-content: space-between;
-  align-items:center;
+  .logo-icon {
+    background: url(../images/ic-logo.svg);
+    background-size: cover;
+    width: 64px;
+    height: 64px;
+    display: inline-block;
+  }
 
-}
+  .academy {
+    color: #9b9b9b;
+    font-weight: normal;
+  }
 
-ul li{
-display: inline;
-}
+  .img-1 {
+    width: 100px;
+    margin: 24px 32px 40px 32px;
+    display: inline;
+  }
 
-.main-content{
-  width: 100%;
-  height:500px;
-  display: flex;
-justify-content: space-around;
-  align-items: center;
-  background-color: #D8D8D8;
-}
+  ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+  }
 
-.banner{
-  background: url(../images/banner.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 60%;
-  height: 436px;
-  margin: 32px 40px 32px 24px;
+  li {
+    margin-right: 1rem;
+  }
 
-}
+  ul li {
+    display: inline;
+  }
+  /************************************/
 
-.main-content-1{
+  .row-1 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    background-color: #D8D8D8;
+  }
+
+  .banner {
+    background: url(../images/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 60%;
+    height: 436px;
+    margin: 32px 40px 32px 24px;
+  }
+
+  .main-content-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+  }
+
+  .main-content-1 p {
+    line-height: 1.5;
+  }
+
+  .button {
+    background-color: #4A4A4A;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: white;
+    width: 100%
+  }
+  /************************************/
+
+  .row-2 {
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 655px;
+  }
+
+  .row-2 img {
+    width: 60%;
+    height: auto;
+    height: 436px;
+    margin: 2rem 1.5rem;
+  }
+
+  .box {
+    margin-left: 1.5em;
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+  }
+
+  .box h1 {
+    margin-bottom: 2rem;
+  }
+
+  .box p {
+    line-height: 1.5;
+    margin-bottom: 1rem;
+  }
+
+  .right {
+    display: flex;
+    flex-direction: column;
+    width: 26rem;
+    border-left: 1px solid #9B9B9B;
+  }
+
+  .container {
+    display: flex;
+    border-bottom: 1px solid #9B9B9B;
+  }
+
+  .info {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .info p {
+    margin: .5rem 0;
+  }
+
+  .container img {
+    width: 40%;
+    height: auto;
+    margin: 1rem;
+  }
+  /***row3**/
+
+  .row-3 {
+    width: 100%;
+  }
+
+  .row-3 h1 {
+    margin: 2rem 0;
+  }
+
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+  }
+
+  .gallery div {
+    margin-left: 2rem;
+    margin-top: .5rem;
+    width: 28%;
+    background-color: white;
+    height: auto;
+  }
+
+  .gallery div h3 {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-bottom: .5rem;
+  }
+
+  .gallery div span {
+    margin-left: 1rem;
+  }
+
+  .gallery div p {
+    margin-top: .5rem;
+    margin-bottom: 1.5rem;
+    margin-left: 1rem;
+  }
+
+  .gallery img {
+    height: auto;
+    width: 100%;
+  }
+
+  h1 {
+    text-align: center;
+  }
+  /******************************/
+
+  .row-4 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    flex-wrap: wrap;
+  }
+
+  .row-4 h1 {
+    margin-top: 2rem;
+    text-align: right;
+    width: 55%;
+  }
+.item{
+  height: 168px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  width: 20%;
-
-
 }
-
-.button {
-  background-color: #4A4A4A;
-  padding-top: 8px;
-  padding-bottom: 8px;
-  color: white;
-  width: 100%
-}
-
-.info-main{
-  background: url(../images/information-main.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-
-  height: 436px;
-  margin: 32px 24px 32px 24px;
-
-}
-.left{
+.item-2{
   display: flex;
-flex-direction: column;
-width: 60%
+  flex-direction: column;
+}
+  video {
+    margin: 2rem 1rem 1.5rem 1.5rem;
+    width: 60%;
+    height: auto;
+  }
 
-}
-.left h1, .left p{
-  display: inline;
-}
-.row-2{
-  display: flex;
-  justify-content: space-around;
+  .right-2 {
+    margin-top: 100px;
+    width: 423px;
+    display: flex;
+    flex-direction: column;
+  }
 
-}
-.guess{
-  background: url(../images/information-guest-lecture.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 35%;
-  height:100px;
-}
-.campus{
-  background: url(../images/information-guest-lecture.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 35%;
-  height:100px;
-}
-.ori{
-  background: url(../images/information-guest-lecture.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 35%;
-  height:100px;
-}
-.container{
-  width:423px;
-}
+  .fisma {
+    background-image: url(../images/thesis-fisma.jpg);
+    background-size: cover;
+    width: 35%;
+    height: 100px;
+  }
+
+  .nowandthen {
+    background-image: url(../images/thesis-now-and-then.jpg);
+    background-size: cover;
+    width: 35%;
+    height: 100px;
